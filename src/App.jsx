@@ -4,10 +4,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Reactの環境構築をしていきます！！</h1>
+        <h1>HOGE</h1>
       </header>
     </div>
   );
 }
-
 export default App;

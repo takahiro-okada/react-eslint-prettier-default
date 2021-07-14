@@ -4,19 +4,13 @@
     "node": true,
     "browser": true
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "settings": {
     "react": {
       "version": "detect"
     }
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "prettier"
-  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -24,10 +18,9 @@
     "sourceType": "module"
   },
   "rules": {
+    "semi": [2, "always"],
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "react/prop-types": [
-      "off"
-    ]
+    "react/prop-types": ["off"]
   }
 }
